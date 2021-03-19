@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_title"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:background="@color/theme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/theme_light" >
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location Address"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:padding="16dp"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_share_24"
+        android:background="@drawable/btn_design"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

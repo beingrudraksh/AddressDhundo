@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Address Dhundo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="intro_desc">Dhundo address of any place just by tapping on it!</string>
+    <string name="permission_denied">Please allow the permission for the app to function properly</string>
+    <string name="current_location">Your current location</string>
+    <string name="location_not_found">Oops! Couldn\'t find your current location</string>
+    <string name="error_msg">Server error!</string>
+    <string name="fetching_location">Fetching your location</string>
+    <string name="location_not_traced">Couldn\'t trace the location!</string>
+    <string name="dialog_title">Address Dhundliya!</string>
+    <string name="tab_google_map">Map</string>
+    <string name="tab_weather">Weather</string>
+</resources>
